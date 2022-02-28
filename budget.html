@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sclae= 1.0">
+    <link rel=stylesheet href="budget.css">
+    <title>Budget Calculator</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h3>Budget Calculator</h3>
+    </div>
+
+    <div class="instructions">
+        <p>This calculator will allow you to keep track of your expenses, and allow you to ensure that your money is spent appropriately. Enter your total income and the sum of your personal expenses to calculate your budget. </p>
+    </div>
+
+    <!--User inputs income and expenses-->
+    <div class="income">
+        <!--User input-->
+        <label for="income">Enter Income</label>
+        <input type="text" id="income" placeholder="ex 1000">
+    </div>
+
+
+    <div class="exp">
+        <label for="exp_name">Enter Expense Name</label>
+        <input type="text" id="exp_name" placeholder="ex Rent/Mortgage">
+        <label for="exp1">Enter Cost of Expense</label>
+        <input type="text" id="exp1" placeholder="ex 1000">
+    </div>
+
+
+
+    <div class="exp">
+        <label for="exp_name">Enter Expense Name</label>
+        <input type="text" id="exp_name" placeholder="ex Transportation">
+        <label for="exp2">Enter Cost of Expense</label>
+        <input type="text" id="exp2" placeholder="ex 1000">
+    </div>
+
+
+
+    <div class="exp">
+        <label for="exp_name">Enter Expense Name</label>
+        <input type="text" id="exp_name" placeholder="ex Entertainment">
+        <label for="exp3">Enter Cost of Expense</label>
+        <input type="text" id="exp3" placeholder="ex 1000">
+    </div>
+
+
+
+    <div class="exp">
+        <label for="exp_name">Enter Expense Name</label>
+        <input type="text" id="exp_name" placeholder="ex Miscellaneous">
+        <label for="exp4">Enter Cost of Expense</label>
+        <input type="text" id="exp4" placeholder="ex 1000">
+    </div>
+
+    <div class="button">
+        <button value="submit" onclick="calculate()">Submit</button>
+    </div>
+
+
+    <!--The difference between the overall expenses and total income is shown here-->
+    <div class="result">
+        <h3>Your Savings:</h3>
+        <p id="message"></p>
+
+    </div>
+    <script src="budget.js"></script>
+
+</body>
+
+</html>
