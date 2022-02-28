@@ -1,0 +1,73 @@
+.heading {
+    position: -webkit-sticky;
+    /*Safari*/
+    /*element stays at the top of page*/
+    position: sticky;
+    top: 1%;
+    background-color: #315e3d;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    font-family: "Garamond";
+    color: white;
+    font-size: 37px;
+}
+
+.instructions {
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    border: 2px;
+    font-size: 19px;
+    /*adjust space between lines*/
+    line-height: 110%;
+    font-family: "Garamond";
+
+}
+
+.income {
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    font-family: "Garamond";
+    font-size: 22px;
+
+}
+
+.exp {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: "Garamond";
+    font-size: 19px;
+   
+   
+
+}
+.exp_cost {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: "Garamond";
+    font-size: 19px;
+    
+
+}
+
+input[type=text]{
+    padding:1px;
+    height: 20px;
+    width: auto;
+}
+.button{
+    text-align: center;
+    
+}
+
+.result{
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Garamond";
+    border: 2px;
+    
+}
